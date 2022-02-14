@@ -5,6 +5,8 @@ h1 {
     position: absolute;
     /* bottom: 5px; */
     text-align: center;
+    color: whitesmoke;
+    padding: 2%;
 }
 div {
     height: 200px;
