@@ -1,0 +1,11 @@
+img {
+    width: 100%;
+}
+h1 {
+    position: absolute;
+    /* bottom: 5px; */
+    text-align: center;
+}
+div {
+    height: 200px;
+}
