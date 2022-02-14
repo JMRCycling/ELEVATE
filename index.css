@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 2px solid red;
-} */
+}
 img {
     width: 100%;
     
@@ -16,9 +16,12 @@ h1 {
     color: whitesmoke;
     padding: 2%;
 
+    margin: 5%;
+
+
 }
 div {
-
+    align-content:center;
     grid-column: 1/4;
 }
 #content{
