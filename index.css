@@ -49,9 +49,6 @@ h1 {
   grid-column: 2/3;
   font-family: var(--heading-font);
 }
-div{
-    margin-top: 10px;
-}
 
 #content {
   display: grid;
@@ -73,18 +70,10 @@ div{
   color: whitesmoke;
 }
 p {
-<<<<<<< HEAD
   margin: 5px;
   background-color: var(--secondary-color);
   color: whitesmoke;
   font-family: var(--paragraph-font);
-=======
-    margin: 5px;
-    background-color: var(--secondary-color);
-    color: whitesmoke;
-    font-family: var(--paragraph-font);
-    padding: 5px;
->>>>>>> 4719884c51408face70d9b3401728eebf484d9c9
 }
 .icon {
   height: 50px;
@@ -92,12 +81,4 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   border-radius: 30%;
-}
-#hero-image {
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
