@@ -49,6 +49,9 @@ h1 {
   grid-column: 2/3;
   font-family: var(--heading-font);
 }
+div{
+    margin-top: 10px;
+}
 
 #content {
   display: grid;
@@ -70,10 +73,18 @@ h1 {
   color: whitesmoke;
 }
 p {
+<<<<<<< HEAD
   margin: 5px;
   background-color: var(--secondary-color);
   color: whitesmoke;
   font-family: var(--paragraph-font);
+=======
+    margin: 5px;
+    background-color: var(--secondary-color);
+    color: whitesmoke;
+    font-family: var(--paragraph-font);
+    padding: 5px;
+>>>>>>> 4719884c51408face70d9b3401728eebf484d9c9
 }
 .icon {
   height: 50px;
