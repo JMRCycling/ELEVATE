@@ -124,3 +124,6 @@ p {
     /* align-self: center; */
     
 }
+.link{
+    color: var(--paragraph-color-on-color);
+}
