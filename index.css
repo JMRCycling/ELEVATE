@@ -55,7 +55,7 @@ h1 {
 }
 h2, h3, h4 {
     text-align: center;
-    
+
 }
  
 /* div {
@@ -135,4 +135,10 @@ p {
 }
 .link{
     color: var(--paragraph-color-on-color);
+}
+.container {
+    background-color: var(--accent2-color);
+    border-radius: 5%;
+    padding: 10px;
+    margin: 5px;
 }
