@@ -141,4 +141,8 @@ p {
     border-radius: 5%;
     padding: 10px;
     margin: 5px;
+    justify-content: center;
+}
+.video {
+    justify-self: center;
 }
