@@ -31,7 +31,7 @@ body {
 
 img {
     width: 100%;
-    border-radius: 5%;
+    border-radius: 20px;
     margin-top: -2%;
 }
 header{
@@ -185,7 +185,7 @@ p {
 }
 .container {
     background-color: var(--accent2-color);
-    border-radius: 5%;
+    border-radius: 20px;
     padding: 10px;
     margin: 5px;
     justify-content: center;
