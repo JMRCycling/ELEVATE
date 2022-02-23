@@ -215,3 +215,7 @@ p {
 .big_brotha {
     margin-top: 1%;
 }
+.motivational_videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
