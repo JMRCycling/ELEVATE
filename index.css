@@ -112,6 +112,7 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     bottom: 0px;
     text-align: center;
+    padding: -20px;
 }
 #footer_fixed {
     display: grid;
@@ -186,11 +187,12 @@ p {
 .container {
     background-color: var(--accent2-color);
     border-radius: 20px;
-    padding: 10px;
+    padding: 5%;
     margin: 5px;
     justify-content: center;
 }
 .video {
+    width: 90%;
     display: block;
     margin: 0 auto;
 }
@@ -216,10 +218,33 @@ p {
     margin-top: 1%;
 }
 .motivational_videos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flexbox;
+    /* grid-template-columns: 1fr 1fr; */
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-left: 100px;
 }
 .motiv_video {
     margin-top: 10px;
+}
+
+.quotes {
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
+
+@media screen and (max-width: 900px) {
+    #content {
+        display: block;
+        height: auto;
+    }
+    #center_grid{
+        display: block;
+        height: auto;
+    }
+    .video {
+        min-width: fit;
+    }
+    
+
 }
